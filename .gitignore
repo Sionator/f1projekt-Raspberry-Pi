@@ -1,0 +1,3 @@
+# Ordner, die nicht auf GitHub sollen
+venv/
+cache/
