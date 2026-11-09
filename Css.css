@@ -1,0 +1,65 @@
+body{
+    background-color: #15151E;
+}
+
+.RADAR{
+    width: 25rem;
+    height: auto;
+    padding: 1rem;
+    background-color: #050505;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 1rem;
+    left: 1rem;
+    border-radius: 2.5%;
+    
+}
+
+.map{
+    width: 25rem;
+    height: auto;
+    padding: 1rem;
+    background-color: #050505;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 1rem;
+    left: 1rem;
+    border-radius: 2.5%;
+    
+}
+.radar-pic, .map-pic{
+    width: 25rem;
+    height: auto;
+    position: relative;
+    border-radius: 50%;
+}
+.george{
+    position: absolute;   
+    background-color: #00d2be;
+    width: 12rem;
+    height: 4.5rem;
+    top: 6rem;
+    right: 0rem;
+    border-radius: 2.5rem 0% 0% 2.5rem;
+}
+.pic{
+    height: 4.25rem;
+    width: auto;
+    left: 7rem;
+    top: 0.25rem;
+    position: relative;
+}
+.george{
+    background:
+        radial-gradient(rgba(255,255,255,.15) 1px, transparent 1px) 0 0 / 0.3rem 0.3rem,
+        linear-gradient(135deg, #00a19b, #00d2be);
+}
+#tabelle{
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}

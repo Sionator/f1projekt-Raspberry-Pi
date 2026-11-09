@@ -1,1 +1,39 @@
 --- config ---
+--- commit ---
+[main (root-commit) aaa8c7a] Projektstart: laden.py, starten.bat, .gitignore
+ 7 files changed, 116 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 ergebnis.txt
+ create mode 100644 git_einrichten.bat
+ create mode 100644 git_ergebnis.txt
+ create mode 100644 git_hochladen.bat
+ create mode 100644 laden.py
+ create mode 100644 starten.bat
+--- remote ---
+--- pull ---
+From https://github.com/Sionator/f1projekt-Raspberry-Pi
+ * branch            main       -> FETCH_HEAD
+ * [new branch]      main       -> origin/main
+warning: in the working copy of 'git_ergebnis.txt', LF will be replaced by CRLF the next time Git touches it
+Merge made by the 'ort' strategy.
+ README.md | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md
+--- push ---
+To https://github.com/Sionator/f1projekt-Raspberry-Pi.git
+   73c8815..f9e4294  main -> main
+branch 'main' set up to track 'origin/main'.
+--- status ---
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   git_ergebnis.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+f9e4294 Merge branch 'main' of https://github.com/Sionator/f1projekt-Raspberry-Pi
+aaa8c7a Projektstart: laden.py, starten.bat, .gitignore
+73c8815 Initial commit
+FERTIG 
